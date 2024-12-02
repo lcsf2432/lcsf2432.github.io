@@ -1,0 +1,163 @@
+/* 
+Author: Divi Barvaliya
+Date: 10 Nov 2024
+File Name: style.css
+*/
+
+/* Style rule for section h1 */
+section h2 {
+  text-align: center;
+  margin-bottom: 1.5em;
+  padding-top: 1.5em;
+}
+
+/* Style rules for video */
+video {
+  width: 100vw;
+}
+
+/* Style rule for main area */
+.about_highlight_block {
+  background: #272727;
+  color: #f2f3f1;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2em;
+  border-radius: 20px 20px 0 0;
+}
+
+.about_section {
+  background-color: #eae6e2;
+  margin-top: -8px;
+}
+
+.about_grid {
+  display: block;
+  margin-top: 2em;
+  padding: 0 2em;
+}
+
+.about_grid div {
+  text-align: justify;
+  margin: auto;
+}
+
+.about_grid div p {
+  padding-bottom: 1em;
+}
+
+/* Style rules for our story area */
+.our_story_section h6,
+.our_story_section h1 {
+  text-align: center;
+  font-weight: 500;
+}
+.our_story_section h1 {
+  padding-bottom: 2em;
+}
+
+.our_story_section h6 {
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+}
+
+.our_story_block {
+  width: 100%;
+  margin: auto;
+  background: #272727;
+  color: #f2f3f1;
+  border-radius: 0 0 20px 20px;
+  padding: 2em;
+}
+
+.our_story_grid {
+  display: block;
+}
+
+.our_story_grid .grid_block div {
+  border-top: 1px solid #f2f3f1;
+  padding: 2em;
+  height: auto;
+}
+.our_story_grid .grid_block div p {
+  font-size: 14px;
+}
+
+.our_story_grid .grid_block div:last-child {
+  border-bottom: 1px solid #f2f3f1;
+}
+
+.about_highlight_block,
+.our_story_block,
+.about_grid {
+  width: 100%;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 630px), print {
+  /* Tablet viewport: Style rule for about us area */
+  .about_highlight_block,
+  .our_story_block {
+    width: 70%;
+  }
+  .about_grid {
+    width: 70%;
+    margin: 0 auto;
+    padding: 2em 0;
+  }
+  .about_grid {
+    display: block;
+  }
+
+  /* Tablet viewport: Style rule for our story area */
+  .our_story_section {
+    background-color: #eae6e2;
+    padding-bottom: 2em;
+  }
+  .our_story_grid {
+    display: block;
+  }
+}
+
+/* Media query for Desktop view and print */
+@media screen and (min-width: 1015px), print {
+  /* Desktop viewport: Style rule for about us area */
+  .about_highlight_block,
+  .our_story_block {
+    width: 80%;
+  }
+  .about_section {
+    padding: 0 2em 0;
+  }
+  .about_grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 0 auto;
+    width: 80%;
+    padding: 0;
+  }
+  .about_grid div {
+    padding: 2em;
+  }
+  .about_grid div:last-child {
+    border-left: 1px solid #2727277d;
+  }
+  .about_grid div p {
+    margin-bottom: 1em;
+  }
+
+  /* Desktop viewport: Style rule for our story area */
+  .our_story_grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0 2em 2em 2em;
+  }
+  .our_story_grid .grid_block div {
+    height: 300px;
+  }
+  .our_story_grid .grid_block:first-child div {
+    border-right: 1px solid #f2f3f1;
+  }
+}

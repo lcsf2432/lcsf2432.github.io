@@ -1,0 +1,354 @@
+/* 
+Author: Divi Barvaliya
+Date: 12 Oct 2024
+File Name: style.css
+*/
+
+/* CSS reset */
+body,
+header,
+nav,
+main,
+footer,
+h1,
+div,
+img,
+ul,
+p,
+h2,
+h6 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Style rule for body, images */
+body {
+  background-color: #f2f3f1;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #272727;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Style rule for box sizing applies to all elements */
+* {
+  box-sizing: border-box;
+  letter-spacing: 0.05em;
+}
+
+/* Style rule for padding for blocks */
+.header-container,
+footer {
+  padding: 0 2em;
+}
+
+/* Show mobile class, hide tablet-desktop class */
+.mobile {
+  display: block;
+}
+
+.tablet-desktop,
+#menu-links {
+  display: none;
+}
+
+/* Style rule for header */
+.header-container {
+  height: 60px;
+  margin: 1.2em 0;
+  text-align: center;
+}
+
+header img {
+  height: 60px;
+  margin: 0 auto;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header h1 {
+  margin-left: 10px;
+  color: #585e4c;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Style rule for nav */
+nav ul li a {
+  text-decoration: none;
+  color: #272727;
+  font-size: 1em;
+}
+
+nav ul li:hover {
+  transform: scale(1.1);
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #585e4c;
+}
+
+/* Style rule for hero image */
+#hero {
+  position: relative;
+}
+#hero .headline {
+  margin: 2em 2em 0;
+  border-radius: 5px;
+  padding: 2em 1em;
+  background-color: #585e4ccf;
+  font-family: "Montserrat", sans-serif;
+  color: #f2f3f1;
+  text-align: center;
+}
+#hero .headline p:first-child {
+  font-size: 1em;
+  font-weight: 600;
+}
+#hero .headline p:last-child {
+  font-size: 0.8em;
+  font-weight: 400;
+}
+#hero .sub-headline {
+  text-align: center;
+  padding: 1em 0 0 0;
+}
+.sub-headline a {
+  color: #272727;
+  text-decoration: none;
+}
+
+/* Style rule for product of week area */
+#product_of_week .grid {
+  padding: 2em 0;
+}
+section#product_of_week {
+  background-color: #eae6e2;
+}
+.img_grid img {
+  width: 84%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+#product_of_week .grid_block {
+  background-color: #f2f3f1;
+  width: 85%;
+  margin: 2% auto;
+  padding: 1.5em;
+  border-radius: 5px;
+  text-align: center;
+}
+h2 {
+  font-weight: 500;
+  text-decoration: underline;
+  color: #585e4c;
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+}
+.highlight {
+  color: #585e4c;
+  font-size: 1.8em;
+  font-weight: 500;
+}
+
+/* Style rule for weekly sales area */
+section#weekly_sales {
+  padding: 2em 0 0 0;
+}
+#weekly_sales .grid {
+  display: block;
+  padding: 0 2em;
+}
+#weekly_sales .frame {
+  position: relative;
+  max-width: 350px;
+  margin: 2em auto;
+}
+#weekly_sales img {
+  height: 350px;
+  width: 350px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+#weekly_sales .pic-text {
+  position: absolute;
+  bottom: 0;
+  background: #eae6e2d9;
+  color: #585e4c;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 500;
+  border-radius: 10px;
+}
+#weekly_sales h2,
+#weekly_sales p {
+  text-align: center;
+}
+#weekly_sales .frame:hover {
+  transform: scale(1.05);
+}
+
+/* Style rule for Footer */
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  padding: 2em 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #272727;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 630px), print {
+  /* Tablet Viewport: show tablet-desktop class, hide mobile class */
+  .tablet-desktop {
+    display: block;
+  }
+
+  .mobile,
+  .mobile-nav {
+    display: none;
+  }
+
+  /* Tablet Viewport: Style rule for header */
+  .header-container {
+    height: 100px;
+  }
+
+  /* Tablet Viewport: Style rule for nav */
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a {
+    margin: 0 1em;
+  }
+
+  /* Tablet Viewport: Style rule for hero */
+  #hero .headline {
+    width: 50%;
+    height: 57%;
+    top: 13%;
+    position: absolute;
+    left: 4%;
+    text-align: left;
+    padding: 3em 2em;
+    border-radius: 20px;
+  }
+  #hero .headline p:first-child {
+    font-size: 1.5em;
+  }
+  #hero .headline p:last-child {
+    font-size: 1em;
+  }
+  #hero .sub-headline {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 2em 0;
+    font-size: 1.5em;
+    width: 100%;
+    background-color: #f2f3f18f;
+  }
+}
+
+/* Media query for Desktop view and print */
+@media screen and (min-width: 1015px), print {
+  /* Desktop Viewport: style rule for header */
+  .header-container {
+    height: 60px;
+  }
+  header {
+    float: left;
+  }
+
+  /* Desktop Viewport: Style rule for nav */
+  nav {
+    float: right;
+    height: 60px;
+    padding: 1em 0;
+  }
+  nav ul li {
+    border-right: none;
+  }
+  nav ul li a {
+    margin: 0.65em;
+  }
+
+  /* Desktop viewport: Style rule for hero */
+  #hero .headline {
+    width: 38%;
+    height: 45%;
+  }
+  #hero .headline p:first-child {
+    font-size: 2.2em;
+  }
+  #hero .headline p:last-child {
+    font-size: 1.3em;
+  }
+
+  /* Desktop viewport: Style rule for product of week area */
+  #product_of_week .grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    padding: 5em 0;
+  }
+  .img_grid {
+    width: 550px;
+  }
+  .img_grid img {
+    width: 60%;
+    height: 100%;
+    float: right;
+    border-radius: 20px 0 0 20px;
+  }
+  #product_of_week .grid_block {
+    width: 77%;
+    margin: auto 0;
+    padding: 2em;
+    border-radius: 0 20px 20px 0;
+    text-align: left;
+  }
+  h2 {
+    font-weight: 500;
+    text-decoration: underline;
+    color: #585e4c;
+  }
+  .highlight {
+    color: #585e4c;
+    font-size: 1.8em;
+    font-weight: 500;
+  }
+
+  /* Desktop viewport: Style rule for weekly sales area  */
+  #weekly_sales .grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+  }
+  #weekly_sales .frame {
+    max-width: 450px;
+  }
+  #weekly_sales img {
+    height: 450px;
+    border-radius: 20px 20px 0 0;
+  }
+  #weekly_sales .pic-text {
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+  }
+}
