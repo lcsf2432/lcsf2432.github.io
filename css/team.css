@@ -1,0 +1,131 @@
+/* 
+Author: Divi Barvaliya
+Date: 15 Nov 2024
+File Name: team.css
+*/
+
+/* Style rule for h6 */
+h6 {
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  font-weight: 500;
+}
+
+/* Style rule for section */
+section {
+  padding: 2em;
+}
+
+/* Style rule for founder */
+.founder {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 4em 2em;
+  grid-gap: 40px;
+  background-color: #eae6e2;
+}
+
+.founder img {
+  width: 90%;
+  border-radius: 0 20px 20px 0;
+}
+
+.founder aside {
+  background: white;
+  margin-left: 40%;
+  height: 50%;
+  margin: auto 0 auto 10%;
+  border-radius: 20px 0 0 20px;
+  padding: 2em;
+  color: #272727;
+}
+
+.founder aside p {
+  padding-bottom: 0.5em;
+  font-size: 1.3em;
+}
+
+.founder_name {
+  padding: 1em 0 0.5em 0;
+}
+
+.founder_name span {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.founder aside p span {
+  font-style: italic;
+}
+
+/* Style rule for team */
+.team_grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 15px;
+}
+
+figure img {
+  height: 430px;
+  border-radius: 20px 20px 0 0;
+}
+
+figcaption h1 {
+  text-align: left;
+  padding-top: 0.5em;
+}
+
+figcaption p {
+  margin-top: 15px;
+}
+
+/* Style rule for our history */
+.our_story_section {
+  padding: 2em 4em;
+}
+.our_story_section h6,
+.our_story_section h1 {
+  text-align: center;
+  font-weight: 500;
+}
+.our_story_section h1 {
+  padding-bottom: 2em;
+}
+
+.our_story_section h6 {
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+}
+
+.our_story_block {
+  width: 100%;
+  margin: auto;
+  background: #272727;
+  color: #f2f3f1;
+  border-radius: 0 0 20px 20px;
+  padding: 2em;
+}
+
+.our_story_grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0 2em 2em 2em;
+}
+
+.our_story_grid .grid_block div {
+  height: 300px;
+  border-top: 1px solid #f2f3f1;
+  padding: 2em;
+}
+
+.our_story_grid .grid_block div p {
+  font-size: 14px;
+}
+
+.our_story_grid .grid_block div:last-child {
+  border-bottom: 1px solid #f2f3f1;
+}
+
+.our_story_grid .grid_block:first-child div {
+  border-right: 1px solid #f2f3f1;
+}

@@ -22,7 +22,8 @@
   - contact.html (Contact Us)
 - CSS files
   - styles.css
-  - about.html (only for about page)
+  - about.css (only for about page)
+  - team.css (only for team page)
 - Script files
   - script.js
 - images

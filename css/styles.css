@@ -80,6 +80,15 @@ header h1 {
   font-family: "Montserrat", sans-serif;
 }
 
+h1 {
+  font-size: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  text-align: center;
+  font-weight: 400;
+  padding: 1em 0;
+}
+
 /* Style rule for nav */
 nav ul li a {
   text-decoration: none;
@@ -240,7 +249,6 @@ footer a {
   /* Tablet Viewport: Style rule for hero */
   #hero .headline {
     width: 50%;
-    height: 57%;
     top: 13%;
     position: absolute;
     left: 4%;
@@ -291,7 +299,6 @@ footer a {
   /* Desktop viewport: Style rule for hero */
   #hero .headline {
     width: 38%;
-    height: 45%;
   }
   #hero .headline p:first-child {
     font-size: 2.2em;
