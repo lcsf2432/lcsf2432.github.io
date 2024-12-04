@@ -16,6 +16,13 @@ video {
   width: 100vw;
 }
 
+/* Style rule for a */
+a {
+  color: #f2f3f1;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
 /* Style rule for main area */
 .about_highlight_block {
   background: #272727;
@@ -128,9 +135,7 @@ video {
   .our_story_block {
     width: 80%;
   }
-  .about_section {
-    padding: 0 2em 0;
-  }
+
   .about_grid {
     display: grid;
     grid-template-columns: auto auto;
@@ -154,8 +159,11 @@ video {
     grid-template-columns: auto auto;
     padding: 0 2em 2em 2em;
   }
+  .our_story_grid .grid_block div:first-child {
+    height: 180px;
+  }
   .our_story_grid .grid_block div {
-    height: 300px;
+    height: 250px;
   }
   .our_story_grid .grid_block:first-child div {
     border-right: 1px solid #f2f3f1;
