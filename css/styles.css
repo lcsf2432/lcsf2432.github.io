@@ -170,7 +170,7 @@ nav ul li a:hover {
 .sub-headline a {
   color: #272727;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 /* Style rule for product of week area */
@@ -248,11 +248,10 @@ section#weekly_sales {
 }
 
 /* Style rules for media page */
-.video_media_section div {
+.video_media_section {
   text-align: center;
   background-color: #eae6e2;
-  padding-bottom: 2em;
-  border-radius: 0 0 20px 20px;
+  padding: 2em 0;
 }
 .video_media_section video {
   height: 300px;
@@ -261,24 +260,29 @@ section#weekly_sales {
   margin-bottom: 1%;
 }
 
-.audio_media_section {
+.audio_media_section div {
   text-align: center;
+  background-color: #272727;
+  color: #f2f3f1;
+  border-radius: 0 0 20px 20px;
+  padding: 2em 0;
+  margin-top: 2em;
 }
 
 /* Style rule for FAQs */
-.faq_section div {
+.faq_section {
   background: #eae6e2;
-  padding: 4em;
+  padding: 2em 4em 4em 4em;
   margin: auto;
-  border-radius: 0 0 20px 20px;
 }
 
 .faq_section li {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .faq_section li p:first-child {
-  font-weight: 400;
+  font-weight: 500;
+  margin-bottom: 1%;
 }
 
 /* Style rule for Footer */
