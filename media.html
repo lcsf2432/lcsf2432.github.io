@@ -47,8 +47,12 @@ File Name: media.html
     <div id="container">
       <div class="header-container">
         <!-- Mobile nav -->
-        <!-- <nav class="mobile-nav">
+        <nav class="mobile-nav">
           <div id="menu-links">
+            <a href="index.html">
+              <!-- logo image -->
+              <img src="images/BlendNest-full-logo.png" alt="Blend Nest Logo" />
+            </a>
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="team.html">Our Team</a>
@@ -61,10 +65,10 @@ File Name: media.html
           <a class="menu-icon" onclick="hamburger()">
             <div>&#9776;</div>
           </a>
-        </nav> -->
+        </nav>
 
         <!-- header area for website logo -->
-        <header>
+        <header id="tp_logo">
           <a href="index.html">
             <!-- logo image -->
             <img src="images/BlendNest-full-logo.png" alt="Blend Nest Logo" />
@@ -89,14 +93,16 @@ File Name: media.html
       <!-- Main content of website -->
       <main>
         <section class="video_media_section">
-          <h1>Video Articles: Watch our videos for helpful tips</h1>
+          <div>
+            <h1>Video Articles: Watch our videos for helpful tips</h1>
 
-          <p>Making Bread Dough</p>
-          <video controls poster="images/steel-bowls-media.jpg">
-            <source src="media/Making Bread Dough.mp4" type="video/mp4" />
-            <source src="media/Making Bread Dough.webm" type="video/webm" />
-            <p>Your browser does not support the video element.</p>
-          </video>
+            <p>Making Bread Dough</p>
+            <video controls poster="images/steel-bowls-media.jpg">
+              <source src="media/Making Bread Dough.mp4" type="video/mp4" />
+              <source src="media/Making Bread Dough.webm" type="video/webm" />
+              <p>Your browser does not support the video element.</p>
+            </video>
+          </div>
         </section>
 
         <section class="audio_media_section">

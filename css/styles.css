@@ -66,7 +66,7 @@ footer {
 
 /* Style rule for header */
 .header-container {
-  height: 60px;
+  height: auto;
   margin: 1.2em 0;
   text-align: center;
 }
@@ -93,6 +93,28 @@ h1 {
   text-align: center;
   font-weight: 400;
   padding: 1em 0;
+}
+
+/* Style for rules for hamburger menu */
+.mobile-nav a {
+  color: #585e4c;
+  font-family: "Francois One", sans-serif;
+  text-align: center;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 3%;
+  display: block;
+}
+
+.mobile-nav a.menu-icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 17px;
+  font-size: 2em;
+}
+.menu-links img {
+  height: 60px;
 }
 
 /* Style rule for nav */
@@ -226,7 +248,7 @@ section#weekly_sales {
 }
 
 /* Style rules for media page */
-.video_media_section {
+.video_media_section div {
   text-align: center;
   background-color: #eae6e2;
   padding-bottom: 2em;
