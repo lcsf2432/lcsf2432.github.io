@@ -1,0 +1,64 @@
+/* 
+Author: Divi Barvaliya
+Date: 14 Nov 2024
+File Name: training.css
+*/
+
+/* style rule for hero image */
+#training_hero .sub-headline {
+  font-weight: 500;
+  padding: 2em;
+}
+
+/* Tablet Viewport: Style rules for table */
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+caption {
+  font-size: 1.5em;
+  font-weight: 400;
+  padding: 2em 1%;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+}
+th,
+td {
+  border-bottom: 1px solid #585e4c;
+  padding: 1% 2%;
+}
+th {
+  background-color: #585e4c;
+  color: #f2f3f1;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+th:first-child,
+td:first-child {
+  padding: 1%;
+}
+th:last-child,
+td:last-child {
+  padding: 0;
+}
+tr:nth-child(odd) {
+  background-color: #eae6e2;
+}
+tr:hover {
+  background-color: #585e4c63;
+}
+td a {
+  color: #272727;
+  text-decoration: none;
+}
+td img {
+  margin: 0 auto;
+  padding-bottom: 2%;
+}
+td span {
+  text-transform: uppercase;
+  font-weight: 400;
+}

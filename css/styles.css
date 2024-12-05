@@ -44,6 +44,7 @@ img {
 
 /* Style rule for padding for blocks */
 .header-container,
+.table_section,
 footer {
   padding: 0 2em;
 }
@@ -106,9 +107,17 @@ nav ul li a:hover {
 }
 
 /* Style rule for hero image */
-#hero {
+#hero,
+#training_hero {
   position: relative;
 }
+#hero img,
+#training_hero img {
+  height: 350px;
+  object-fit: cover;
+  width: 100%;
+}
+
 #hero .headline {
   margin: 2em 2em 0;
   border-radius: 5px;
@@ -126,13 +135,15 @@ nav ul li a:hover {
   font-size: 0.8em;
   font-weight: 400;
 }
-#hero .sub-headline {
+#hero .sub-headline,
+#training_hero .sub-headline {
   text-align: center;
   padding: 1em 0 0 0;
 }
 .sub-headline a {
   color: #272727;
   text-decoration: none;
+  font-weight: 500;
 }
 
 /* Style rule for product of week area */
@@ -247,6 +258,10 @@ footer a {
   }
 
   /* Tablet Viewport: Style rule for hero */
+  #hero img,
+  #training_hero img {
+    height: 620px;
+  }
   #hero .headline {
     width: 50%;
     top: 13%;
@@ -254,22 +269,24 @@ footer a {
     left: 4%;
     text-align: left;
     padding: 3em 2em;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
   }
   #hero .headline p:first-child {
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
   #hero .headline p:last-child {
     font-size: 1em;
   }
-  #hero .sub-headline {
+  #hero .sub-headline,
+  #training_hero .sub-headline {
     position: absolute;
     bottom: 0;
     text-align: center;
-    padding: 2em 0;
+    padding: 1em 0;
     font-size: 1.5em;
     width: 100%;
     background-color: #f2f3f18f;
+    border-radius: 20px 20px 0 0;
   }
 }
 
@@ -301,7 +318,7 @@ footer a {
     width: 38%;
   }
   #hero .headline p:first-child {
-    font-size: 2.2em;
+    font-size: 2em;
   }
   #hero .headline p:last-child {
     font-size: 1.3em;

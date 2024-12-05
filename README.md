@@ -24,9 +24,14 @@
   - styles.css
   - about.css (only for about page)
   - team.css (only for team page)
+  - training.css (only for training page)
 - Script files
   - script.js
 - images
   - images for website
 - media
+
   - videos for website
+
+- Images and Videos are downloaded from [Pexels](https://www.pexels.com/) website.
+- Video edited using [kapwing](https://www.kapwing.com/) website (added voiceover)
