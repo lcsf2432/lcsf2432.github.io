@@ -47,6 +47,9 @@ img {
 .table_section,
 .contact_section,
 .contact_form_section,
+.video_media_section,
+.audio_media_section,
+.faq_section,
 footer {
   padding: 0 2em;
 }
@@ -220,6 +223,40 @@ section#weekly_sales {
 }
 #weekly_sales .frame:hover {
   transform: scale(1.05);
+}
+
+/* Style rules for media page */
+.video_media_section {
+  text-align: center;
+  background-color: #eae6e2;
+  padding-bottom: 2em;
+  border-radius: 0 0 20px 20px;
+}
+.video_media_section video {
+  height: 300px;
+}
+.video_media_section p {
+  margin-bottom: 1%;
+}
+
+.audio_media_section {
+  text-align: center;
+}
+
+/* Style rule for FAQs */
+.faq_section div {
+  background: #eae6e2;
+  padding: 4em;
+  margin: auto;
+  border-radius: 0 0 20px 20px;
+}
+
+.faq_section li {
+  margin-bottom: 20px;
+}
+
+.faq_section li p:first-child {
+  font-weight: 400;
 }
 
 /* Style rule for Footer */
