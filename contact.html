@@ -11,6 +11,7 @@ File Name: contact.html
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/contact.css" />
     <link rel="shortcut icon" href="images/favicon.ico" />
     <link
       rel="icon"
@@ -88,9 +89,105 @@ File Name: contact.html
 
       <!-- Main content of website -->
       <main>
-        <div>
-          <p>Content</p>
-        </div>
+        <section class="contact_section">
+          <h1>Ready to get started? Contact us today.</h1>
+          <p class="tel-num">(226) 233-4746</p>
+          <p>
+            Email us:
+            <a href="mailto:info@blendnest.com" class="contact-email-link"
+              >info@blendnest.com</a
+            >
+          </p>
+          <p>Visit us at: 1457 London Rd, Sarnia, ON N7S 6K4</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5747.01091097588!2d-82.3500595239125!3d42.97581447114234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8825830ada06f7cb%3A0x8f33c2e6a2ccfad1!2sLambton%20College!5e1!3m2!1sen!2sca!4v1733363204866!5m2!1sen!2sca"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </section>
+
+        <section class="contact_form_section">
+          <div>
+            <h1>Complete the form below to hear from us</h1>
+
+            <form class="form-grid" action="">
+              <!-- Start Form -->
+              <fieldset>
+                <legend>Customer Information</legend>
+
+                <label for="fName">First Name:</label>
+                <input type="text" name="fName" id="fName" required />
+
+                <label for="lName">Last Name:</label>
+                <input type="text" name="lName" id="lName" required />
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required />
+
+                <label for="phone">Phone:</label>
+                <input type="tel" name="phone" id="phone" required />
+              </fieldset>
+
+              <fieldset>
+                <legend>Additional Information</legend>
+                <p>I would like more information about:</p>
+
+                <label for="glassbowl">
+                  <input
+                    type="checkbox"
+                    name="interest"
+                    id="glassbowl"
+                    value="Glass Mixing Bowl"
+                  />Glass Mixing Bowl
+                </label>
+                <label for="woodenbowl">
+                  <input
+                    type="checkbox"
+                    name="interest"
+                    id="woodenbowl"
+                    value="Wooden Mixing Bowl"
+                  />Wooden Mixing Bowl
+                </label>
+                <label for="ceramicbowl">
+                  <input
+                    type="checkbox"
+                    name="interest"
+                    id="ceramicbowl"
+                    value="Pottery Mixing Bowl"
+                  />Pottery Mixing Bowl
+                </label>
+              </fieldset>
+
+              <fieldset>
+                <legend>Referral Source</legend>
+
+                <label for="reference">How did you find us?</label>
+                <select name="reference" id="reference">
+                  <option value="ad">Advertisement</option>
+                  <option value="friend">Friend</option>
+                  <option value="google">Google</option>
+                  <option value="social">Social Media</option>
+                  <option value="other">Other</option>
+                </select>
+
+                <label for="questions">Questions?</label>
+                <textarea
+                  name="questions"
+                  id="questions"
+                  rows="5"
+                  cols="35"
+                ></textarea>
+              </fieldset>
+
+              <input type="submit" id="submit" value="Submit" class="btn" />
+              <input type="reset" id="reset" value="Reset" class="btn" />
+            </form>
+          </div>
+        </section>
       </main>
 
       <!-- Footer area to add footer content -->

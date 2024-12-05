@@ -1,0 +1,90 @@
+/* 
+Author: Divi Barvaliya
+Date: 28 Nov 2024
+File Name: contact.css
+*/
+
+/* Style rule for contact section */
+.contact_section {
+  text-align: center;
+}
+
+.contact_section p {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+/* Style rules for contact form section */
+
+.contact_form_section {
+  margin-top: 2em;
+}
+.contact_form_section div {
+  padding: 2%;
+  background-color: #272727;
+  color: #f2f3f1;
+  border-radius: 0 0 20px 20px;
+}
+
+/* Style rules for form elements */
+form {
+  width: auto;
+}
+
+fieldset,
+input,
+select,
+textarea {
+  margin-bottom: 2%;
+}
+
+fieldset {
+  padding: 2em;
+  margin-top: 2em;
+  border-radius: 0 0 20px 20px;
+}
+
+fieldset legend {
+  font-weight: 400;
+  font-size: 1.04em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+label {
+  display: block;
+  padding-top: 3%;
+}
+
+form #submit,
+form #reset {
+  margin: 0 auto;
+  border: none;
+  display: block;
+  padding: 1% 2%;
+  background-color: #ffffff;
+  font-size: 1em;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+}
+
+input {
+  padding: 2%;
+  border-radius: 5px;
+}
+
+select {
+  padding: 2%;
+  border-radius: 5px;
+  width: 70%;
+}
+
+.btn {
+  grid-column: 1 / span 3;
+}

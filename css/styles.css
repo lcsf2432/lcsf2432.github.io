@@ -45,6 +45,8 @@ img {
 /* Style rule for padding for blocks */
 .header-container,
 .table_section,
+.contact_section,
+.contact_form_section,
 footer {
   padding: 0 2em;
 }

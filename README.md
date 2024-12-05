@@ -25,6 +25,7 @@
   - about.css (only for about page)
   - team.css (only for team page)
   - training.css (only for training page)
+  - contact.css (only for contact page)
 - Script files
   - script.js
 - images
