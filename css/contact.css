@@ -75,7 +75,7 @@ form #reset {
   grid-gap: 20px;
 }
 
-input {
+input, textarea {
   padding: 2%;
   border-radius: 5px;
 }
@@ -88,4 +88,10 @@ select {
 
 .btn {
   grid-column: 1 / span 3;
+}
+
+legend span,
+label span,
+p span{
+  color: red;
 }
